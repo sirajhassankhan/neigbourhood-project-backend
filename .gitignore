@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Environment variables (contains real secrets - never commit)
+.env
+.env.local
+.env.*.local
+
+# Uploaded files (user-submitted content, not source code)
+uploads/
+
+# Logs
+*.log
+npm-debug.log*
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Package manager locks (optional - some teams keep this, safe to remove this line if you want it tracked)
+# package-lock.json
