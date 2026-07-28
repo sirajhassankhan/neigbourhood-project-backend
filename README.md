@@ -4,7 +4,7 @@ Node.js REST API backend for the Neighborhood Council App, handling all data ope
 
 ## Overview
 
-This backend powers the Neighborhood Council App's core governance features — council creation, digital elections, complaint tracking with committee resolution workflows, and treasury/budget management. It connects to a Microsoft SQL Server database and serves the [Flutter mobile app](#) via a REST API.
+This backend powers the Neighborhood Council App's core governance features — council creation, digital elections, complaint tracking with committee resolution workflows, and treasury/budget management. It connects to a Microsoft SQL Server database and serves the [Flutter mobile app](https://github.com/sirajhassankhan/neigbourhood_council_app) via a REST API.
 
 ## Features
 
@@ -27,8 +27,9 @@ This backend powers the Neighborhood Council App's core governance features — 
 - **File Uploads:** Multer
 - **Environment Config:** dotenv
 
-##  Frontend Repository
-The cross-platform Flutter mobile client for this system can be found at:  
+## Frontend Repository
+
+The cross-platform Flutter mobile client for this system can be found at:
 👉 [Neighborhood Council App Frontend](https://github.com/sirajhassankhan/neigbourhood_council_app)
 
 ## Project Structure
@@ -77,9 +78,11 @@ The cross-platform Flutter mobile client for this system can be found at:
    ```
    The API will run on `http://localhost:5000` by default.
 
-## Related Repository
+## Documentation
 
-- [Flutter frontend](#) — mobile app that consumes this API
+The original project documentation (shared team brief covering the full project scope, objectives, and requirements) is available as a PDF: [Documentation.pdf](./Documentation.pdf)
+
+> Note: This document describes the overall project concept as assigned to a team of three students. Each team member independently designed and built their own complete implementation using a technology stack of their choice. This repository represents my individual backend implementation — built with Node.js, Express, and SQL Server — and may differ in specific technologies from what is described in the shared documentation (e.g., authentication method, third-party integrations).
 
 ## Author
 
