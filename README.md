@@ -27,6 +27,10 @@ This backend powers the Neighborhood Council App's core governance features — 
 - **File Uploads:** Multer
 - **Environment Config:** dotenv
 
+##  Frontend Repository
+The cross-platform Flutter mobile client for this system can be found at:  
+👉 [Neighborhood Council App Frontend](https://github.com/sirajhassankhan/neigbourhood_council_app)
+
 ## Project Structure
 
 ```
